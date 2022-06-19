@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+.clr{
+    clear: both;
+}
+/* top-bar start  */
+.top-bar{
+    background-color: #f9f8f3;
+}
+.top-bar a{
+    color: #bea44d;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+/* top-bar end  */
+/* navigation-bar start  */
+.navigation-bar .navbar-nav .nav-item .nav-link{
+    color: #252323;
+}
+.navigation-bar .navbar-nav .nav-item:hover .nav-link{
+    color: #bea44d;
+    
+}
+.navigation-bar .navbar-nav .nav-item:hover::after{
+    background-color: #bea44d;
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 50px;
+    margin-left: 5px;
+}
+.navigation-bar .navbar-toggler span{
+    color: #252323;
+}
+/* navigation-bar end  */
+/* banner start  */
+.banner{
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 90px 0px 85px;
+}
+.banner h1{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+}
+.banner h1 span{
+    background: #fff;
+    color: #bea44d;
+}
+.banner .icon-list{
+    display: flex;
+    color: #fff;
+    padding-top: 40px;
+}
+.banner .icon-item{
+    text-align: center;
+}
+.banner .icon-item i{
+    font-size: 40px;
+}
+.banner .icon-item h4{
+    font-size: 25px;
+    font-weight: 900;
+}
+.banner .icon-item p{
+    font-size: 14px;
+    font-weight: 400;
+}
+/* banner end  */
+
+/* services start  */
+.services{
+    padding: 50px 0px;
+}
+.services .services-item{
+    transition: all linear 0.4s;
+}
+.services .services-icon{
+    display: inline-block;
+    background-color: #f9f8f3;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+.services .services-item:hover .services-icon{
+    border: 1px solid #bea44d;
+}
+.services .services-icon i{
+    font-size: 25px;
+    line-height: 60px;
+    color: #bea44d;
+}
+.services .services-item h3{
+    font-size: 22px;
+    color: #bea44d;
+}
+.services .services-item p{
+    font-size: 14px;
+    color: #687074;
+}
+/* services end  */
+
+
+
+
+@media (max-width: 767px) {
+    .banner{
+        text-align: center;
+    } 
+    .banner h1{
+        color: #fff;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .banner h1 span{
+        background: #fff;
+        color: #bea44d;
+    }
+}
