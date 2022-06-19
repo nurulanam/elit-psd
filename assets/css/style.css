@@ -7,6 +7,18 @@ body{
 .clr{
     clear: both;
 }
+/* common heading start  */
+.common-heading h2{
+    color: #916c02;
+    font-weight: bolder;
+}
+.common-heading p{
+    color: #687074;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 20px 0px;
+}
+/* common heading end  */
 /* top-bar start  */
 .top-bar{
     background-color: #f9f8f3;
@@ -109,8 +121,38 @@ body{
 }
 /* services end  */
 
+/* featured-work start  */
+.featured-work{
+    padding: 15px 0px;
+}
 
-
+/* featured-work end  */
+/* latest-post start  */
+.latest-post{
+    padding: 15px 0px;
+}
+.latest-post .latest-post-item h3{
+    font-size: 18px;
+    color: #bea44d;
+    font-weight: 700;
+}
+.latest-post .latest-post-item h6{
+    font-size: 12px;
+    color: #687074;
+    font-weight: 400;
+}
+.latest-post .latest-post-item p{
+    font-size: 14px;
+    color: #687074;
+    font-weight: 400;
+}
+.latest-post .latest-post-item a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #bea44d;
+    font-weight: 700;
+}
+/* latest-post end  */
 
 @media (max-width: 767px) {
     .banner{
